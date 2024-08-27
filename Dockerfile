@@ -1,4 +1,4 @@
-FROM openjdk:12-alpine
+FROM amazoncorretto:11-alpine3.20-jdk
 
 RUN apk add curl
 
